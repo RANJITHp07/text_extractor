@@ -32,8 +32,8 @@ function HomePage() {
            <p className='text-2xl p-4 text-white font-bold '>Pdf_extractor</p> 
            {
             !token &&   <div className='flex text-white'>
-            <button className='py-1 my-2 px-2 rounded-md border-2 mx-3'>Login</button>
-            <button className='py-1 my-2 px-2 rounded-md border-2 mx-3'>Sign In</button>
+            <a href='/login' className='py-1 my-2 px-2 rounded-md border-2 mx-3'>Login</a>
+            <a href='/signin' className='py-1 my-2 px-2 rounded-md border-2 mx-3'>Sign In</a>
            </div>
            }
           

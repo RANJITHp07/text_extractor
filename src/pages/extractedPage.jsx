@@ -12,15 +12,17 @@ function ExtractedPage() {
             const res=await getAlltext(parsedToken.userId)
             sethistory(res.data.data)
         }
-              
+        fetchData()   
        }
-    })
+    },[])
   return (
     <div>
         <div className='flex bg-indigo-950 justify-between items-center'>
-           <p className='text-2xl p-4 text-white font-bold '>Pdf_extractor</p> 
+           <p className='text-2xl p-4 text-white font-bold '>Pdf_extractor</p>
         </div> 
-        
+        <div>
+            
+        </div>
     </div>
   )
 }
